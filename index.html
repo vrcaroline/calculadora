@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora de alcance de anúncio</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <header>
+            <img class="imagemCabecalho" src="img/calculadora.jpg">
+            <h1 class="titulo">Calculadora de alcance de anúncio</h1>
+        </header>
+        <main>
+            <h1 class="comoUsar">Como usar</h1>
+            <p class="instrucao">Insira o valor que pretende investir em anúncios e clique em calcular que daremos o numero aproximado de alcance do anúncio</p>
+        
+            <h2 class="segundoTitulo">Calculadora</h2>
+        
+            <form name="fmrValor">
+                <div class="flex">
+                    <label for="valor" class="textoValor">Valor investido (R$)</label>
+                    <input type="number" class="numero" required placeholder="00,00" name="txtValor">
+                </div>
+                <div class="button">
+                    <input type="button" class="botao" value="Calcule" onclick="calcular()">
+                    <input type="reset" class="botao" value="Limpar">
+                </div>
+            </form>
+            
+
+            <h2 class="resultado">Resultado</h2>
+            <p class="numero">156842348</p>
+            <p class="texto">Pessoas aproximadamente visualizarão o seu anuncio</p>
+            <p class="segundoTexto">(considerando o anúncio original e os compartilhamentos)</p>
+        </main>
+        <footer>
+            <p class="rodape">Caroline Vicente Rodrigues</p>
+        </footer>
+        <script src="calc.js">
+            
+        </script>
+    </body>
+
+</html>
+

@@ -1,0 +1,86 @@
+body{
+    background: #ebcee9;
+    font-family: 'Open Sans',Arial,sans-serif;
+ 
+}
+
+header{
+    background: #cc97c8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagemCabecalho{
+    width: 10%;
+}
+.titulo{
+    font-size: 50px;
+}
+
+main {
+    text-align: center;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.valor {
+   flex-wrap: wrap;
+}
+
+.numero{
+    margin: 20px 400px;   
+}
+
+.segundoTitulo {
+    background: #cc97c8;
+}
+
+.comoUsar{
+    background-color: #cc97c8;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.botao{
+    border-color: #cc97c8;
+    border-radius: 10px;
+    width: 100px;
+    background: #cc97c8;
+    flex-flow: row;
+    
+    
+}
+
+.botao:hover {
+    box-shadow: 4px 4px 4px #8f00b3;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.resultado {
+    background: #cc97c8;
+}
+
+.segundoTexto {
+    font-size: 70%;
+    font-style: italic;
+}
+
+
+footer {
+    text-align: center;
+    background: #cc97c8;
+    width: 100%;
+    padding: 50px 4px;
+}
